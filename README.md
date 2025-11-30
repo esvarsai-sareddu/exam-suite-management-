@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# ExamFlow Suite  
+A modern, end-to-end **Exam Management System** engineered for digital excellence.  
+Designed to streamline academic processes with precision, automation, and a clean user-first workflow.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/88a96cb0-f1f0-4afc-8551-998a5de7ee88
+## 🚀 Vision  
+In an era where time is currency and efficiency is culture, ExamFlow Suite empowers institutions to **create exams**, **manage student applications**, **approve submissions**, and **deliver hall tickets** with elegance and speed.
 
-## How can I edit this code?
+A seamless orchestration of admin dashboards, student portals, database intelligence, and automated document generation.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧩 Core Features  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88a96cb0-f1f0-4afc-8551-998a5de7ee88) and start prompting.
+### 👨‍💼 **Admin Panel**
+- Secure admin authentication  
+- Create & manage examinations  
+- Configure dates, codes, venues, instructions  
+- Review student exam applications  
+- Approve / Reject with a single click  
+- Trigger email notifications to students  
+- Export data for records
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎓 **Student Portal**
+- Student login & profile view  
+- View available examinations  
+- Fill dynamic application forms  
+- Track application status in real-time  
+- Download hall ticket (auto-generated PDF)
 
-**Use your preferred IDE**
+### 🧾 **Hall Ticket Generation**
+- Clean, print-ready PDF template  
+- Auto-fills student details  
+- Includes exam code, schedule & center information  
+- One-click download
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack  
 
-Follow these steps:
+### **Frontend**
+- React + Vite  
+- Tailwind CSS  
+- ShadCN UI components  
+- Axios for API communication  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### **Backend**
+- Node.js / Express (or Go, depending on build variant)  
+- JWT Authentication  
+- REST API Architecture  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### **Database**
+- MySQL (local or hosted)  
+- Prisma / Sequelize ORM (if Node)  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Other Integrations**
+- Email service (SMTP / Nodemailer)  
+- PDF generation (html2pdf / jsPDF)  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/88a96cb0-f1f0-4afc-8551-998a5de7ee88) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📁 Project Structure  
